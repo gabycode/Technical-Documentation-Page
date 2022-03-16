@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed&family=Inter:wght@200;400&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font-family: "Inter", sans-serif;
+}
+
+nav {
+  background-color: #fcf0eb;
+  position: fixed;
+  height: 100%;
+  padding: 0px;
+  box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+  width: 250px;
+}
+
+main {
+  padding: 0 20px 20px 270px;
+  background-color: #e6fafa;
+}
+
+.title {
+  font-size: 3em;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  margin: 25px;
+  padding-top: 0;
+  color: #1f3333;
+}
+
+@media (max-width: 815px) {
+  .title {
+    margin: 20px;
+  }
+}
+
+header {
+  font-family: "Anton", sans-serif;
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+  color: #854a19;
+  padding-top: 30px;
+}
+
+nav ul {
+  height: 83%;
+  font-family: "Barlow Condensed", sans-serif;
+  list-style: none;
+  padding: 0;
+  font-size: 1.4rem;
+  overflow: auto;
+  margin-top: 0;
+}
+
+nav ul li {
+  /*   margin: 40px 0; */
+  width: 100%;
+  border-top: 1px solid black;
+  text-align: left;
+  padding: 20px 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #588b8b;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: #335757;
+}
+
+p {
+  color: #171717;
+}
+
+.code {
+  background-color: #fff;
+  padding: 20px;
+}
